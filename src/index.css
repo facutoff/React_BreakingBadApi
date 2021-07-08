@@ -149,6 +149,10 @@ span {
   text-transform: capitalize;
 }
 
+img {
+  margin-top: 5px;
+}
+
 @media (min-width: 680px) {
   .app {
     padding-left: 160px;

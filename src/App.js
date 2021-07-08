@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Quote from './components/Quote';
 import Spinner from './components/Spinner';
+import FaqFooter from './components/FaqFooter/FaqFooter'
 
 const initialQuote = {
   text: 'Quote',
@@ -41,6 +42,7 @@ function App() {
         ?<Spinner />
         :<Quote quote={quote}/>
       }
+      <FaqFooter />
     </div>
   );
 }

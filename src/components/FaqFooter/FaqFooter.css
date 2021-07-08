@@ -1,0 +1,62 @@
+.faq-footer {
+  width: 100%;
+  position: fixed;
+  bottom: -5px;
+  left: 0%;
+  padding: 3px;
+  margin: 0;
+}
+.faq-footer--text {
+  margin: 2px auto;
+  text-align: center;
+  font-size: 25px;
+}
+.faq-footer--text a {
+  text-decoration: none;
+  color: gray;
+}
+.corazon {
+  background-color: red;
+  display: inline-block;
+  height: 10px;
+  margin: 0 10px;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.corazon:before,
+.corazon:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.corazon:before {
+  top: -5px;
+  left: 0;
+}
+
+.corazon:after {
+  left: 5px;
+  top: 0;
+}
+
+@keyframes latido {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  20% {
+    transform: scale(1.25) rotate(-45deg);
+  }
+  40% {
+    transform: scale(1.5) rotate(-45deg);
+  }
+}
+
+.corazon {
+  animation: latido 1s infinite; /* nuestro corazón tiene latidos infinitos */
+}
