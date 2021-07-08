@@ -106,6 +106,10 @@ button {
   cursor: pointer;
   background-color: #de9200;
   transition: background 0.1s linear;
+
+  position: relative;
+  max-width: 200px;
+  left: calc(50% - 100px);
 }
 
 button:hover {
@@ -125,6 +129,10 @@ img {
   padding: 10px;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+
+  display: block;
+  position: relative;
+  left: calc(50% - 130px);
 }
 
 p {
