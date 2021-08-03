@@ -1,6 +1,6 @@
 .faq-footer {
   width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: -5px;
   left: 0%;
   padding: 3px;
