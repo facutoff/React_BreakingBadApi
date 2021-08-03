@@ -36,12 +36,13 @@ function App() {
         alt="logo"
       />
       <button onClick={() => updateQuote()} > Obtener Otra </button>
-
+      <div className="d-center">
       {
         loading
         ?<Spinner />
         :<Quote quote={quote}/>
       }
+      </div>
       <FaqFooter />
     </div>
   );

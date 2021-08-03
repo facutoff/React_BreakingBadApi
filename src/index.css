@@ -152,7 +152,15 @@ span {
 img {
   margin-top: 5px;
 }
-
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
 @media (min-width: 680px) {
   .app {
     padding-left: 160px;
